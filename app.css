@@ -1,0 +1,27 @@
+.card img:hover {
+  transform: scale(1.15) rotate(8deg);
+}
+
+.card h3 {
+  margin: 12px 0 6px;
+  font-size: 20px;
+  animation: fadeText 1s ease-in;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
